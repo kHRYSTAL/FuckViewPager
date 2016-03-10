@@ -1,7 +1,7 @@
 ##FuckViewPager
 
 
-###故事
+###故事是这样
 项目有个操蛋的需求，需求需要上方的Tab选中居中
 使用的库是[SmartTabLayout](https://github.com/ogaclejapan/SmartTabLayout)
 同时要求下方的`ViewPager`左右能看到边界,滑动有缩放效果，最开始我是通过`clipChildren="false"`实现了未选中的页面可见效果，同时用`setPageTransformer(boolean b,ViewPager.Transformer t)`实现的滑动动画。
