@@ -10,13 +10,11 @@ import java.util.ArrayList;
 import me.khrystal.fuckviewpager.FuckViewPager;
 
 public class MainActivity extends AppCompatActivity {
-    FuckViewPager pager;
-//    ViewPager pager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        pager = (FuckViewPager)findViewById(R.id.viewpager);
+        FuckViewPager pager = (FuckViewPager)findViewById(R.id.viewpager);
         ArrayList<String> list = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             list.add(""+i);

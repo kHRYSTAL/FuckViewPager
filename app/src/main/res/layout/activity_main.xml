@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:clipChildren="false"
     tools:context=".MainActivity">
-
     <me.khrystal.fuckviewpager.FuckViewPager
         android:id="@+id/viewpager"
         app:offscreenPageLimit="3"
@@ -13,13 +12,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </me.khrystal.fuckviewpager.FuckViewPager>
-
-    <!--<me.khrystal.fuckviewpager.FuckPagerChildren-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent">-->
-        <!--<android.support.v4.view.ViewPager-->
-            <!-- -->
-        <!-- -->
-    <!--</me.khrystal.fuckviewpager.FuckPagerChildren>-->
-
 </RelativeLayout>
